@@ -1,0 +1,74 @@
+.module {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #222;
+    /* Dark blue background */
+    margin: 0;
+    padding: 0;
+    height: 650px;
+
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    /* Use flexbox for horizontal centering */
+    flex-direction: column;
+    /* Align items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    justify-content: center;
+    /* Center items vertically within container */
+
+    /* Set minimum height to fill viewport */
+}
+
+h1 {
+    text-align: center;
+    /* Center title horizontally */
+   
+    margin-top: 120px;
+    padding-top: 150px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    /* Add space below title */
+    color: #fff;
+    font-size: 55px;
+    /* White text color */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns of equal width */
+    grid-gap: 20px;
+    /* Spacing between grid items */
+    width: 80%;
+    padding-bottom: 10px;
+    /* Take up 90% of available width */
+    margin: 0 auto;
+    /* Remove margins for horizontal centering (handled by flexbox) */
+}
+
+.grid-item {
+    background-color: inherit;
+    /* Inherit background color from container */
+    padding: 10px 20px 0px;
+    color: #fff;
+    /* White text color */
+    text-align: center;
+    /* Center text within grid items */
+}
+
+.grid-item h2 {
+    margin-bottom: 10px;
+    font-size: 60px;
+    /* Space between title and content */
+}
+
+.grid-item p {
+    font-size: 20px;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.6);
+    /* Slightly smaller font for content */
+}
+
