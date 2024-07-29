@@ -1,27 +1,32 @@
-
 [
   {
-    "title": "80%",
+    "start": 0,
+    "end": 80,
     "text": "Faster project delivery"
   },
   {
-    "title": "20%",
+    "start": 0,
+    "end": 20,
     "text": "Higher ROI"
   },
   {
-    "title": "95%",
+    "start": 0,
+    "end": 95,
     "text": "Fewer human errors"
   },
   {
-    "title": "75%",
+    "start": 0,
+    "end": 75,
     "text": "Reduction in labour hours"
   },
   {
-    "title": "100%",
+    "start": 0,
+    "end": 100,
     "text": "International compliance"
   },
   {
-    "title": "98%",
+    "start": 0,
+    "end": 98,
     "text": "Waste reduction"
   }
 ]
